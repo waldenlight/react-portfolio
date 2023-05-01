@@ -5,6 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
+      <h2>Walden Light</h2>
       <li className="nav-item">
         <a
           href="#home"
