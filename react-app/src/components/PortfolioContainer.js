@@ -22,7 +22,39 @@ const projects = [
     url: "https://weddit.herokuapp.com/",
     repo: "https://github.com/waldenlight/weddit",
     image: "https://raw.githubusercontent.com/waldenlight/omen-weather-app/main/assets/images/london.jpg"
-  }
+  },
+  {
+    id: 3,
+    name: "Progressive Web App",
+    description: "A PWA text editor",
+    url: "https://w-pwa-te.herokuapp.com/",
+    repo: "https://github.com/waldenlight/w-pwa-te",
+    image: "https://raw.githubusercontent.com/waldenlight/w-pwa-te/main/client/src/images/logo.png"
+  },
+  {
+    id: 4,
+    name: "Another Portfolio",
+    description: "Yet another portfolio",
+    url: "https://waldenlight.github.io/portfolio/",
+    repo: "https://github.com/waldenlight/portfolio",
+    image: "https://github.com/waldenlight/portfolio/blob/main/assets/images/bridge.JPG?raw=true"
+  },
+  {
+    id: 5,
+    name: "Programming Quiz",
+    description: "A programming quiz",
+    url: "https://waldenlight.github.io/walle-programming-quiz/",
+    repo: "https://github.com/waldenlight/walle-programming-quiz",
+    image: "https://user-images.githubusercontent.com/76961678/210656083-6bc8d23f-1720-4feb-ae43-944283462548.png"
+  },
+  {
+    id: 6,
+    name: "A password generator",
+    description: "A password generator",
+    url: "https://github.com/waldenlight/best-password-generator#installation",
+    repo: "https://github.com/waldenlight/best-password-generator",
+    image: "https://user-images.githubusercontent.com/76961678/208982696-3f873d3d-f069-47fe-b5f7-badfa20871dd.png"
+  },
 ];
 
 export default function PortfolioContainer() {
