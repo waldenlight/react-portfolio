@@ -1,6 +1,34 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
+const styles = {
+  mainDivStyles: {
+    margin: "20px 150px",
+    padding: '20px 30px',
+    backgroundColor: '#A569BD',
+    color: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  },
+  formStyles: {
+    display: 'flex',
+    flexDirection: 'column',
+    width: '300px'
+  },
+  inputStyles: {
+    margin: '10px 0px',
+    border: 'none',
+    padding: '8px 8px',
+    borderRadius: '5px'
+  },
+  imageStyle: {
+    width: '300px',
+    margin: '10px 0px',
+    border: '6px solid #A569BD'
+  }
+};
+
 function Form() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -38,10 +66,11 @@ function Form() {
   };
 
   return (
-    <div>
-      <p>Hello {name}</p>
-      <form className="form">
+    <div style={styles.mainDivStyles}>
+      <h1>Contact Me</h1>
+      <form style={styles.formStyles} className="form">
         <input
+          style={styles.inputStyles}
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -49,6 +78,7 @@ function Form() {
           placeholder="email"
         />
         <input
+          style={styles.inputStyles}
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -56,13 +86,14 @@ function Form() {
           placeholder="name"
         />
         <input
+          style={styles.inputStyles}
           value={message}
           name="message"
           onChange={handleInputChange}
           type="textarea"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button style={styles.inputStyles} type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
