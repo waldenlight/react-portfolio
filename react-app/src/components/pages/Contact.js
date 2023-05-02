@@ -3,7 +3,7 @@ import { validateEmail } from '../../utils/helpers';
 
 const styles = {
   mainDivStyles: {
-    margin: "20px 150px",
+    margin: "2% 8%",
     padding: '20px 30px',
     backgroundColor: '#A569BD',
     color: 'white',
@@ -14,13 +14,15 @@ const styles = {
   formStyles: {
     display: 'flex',
     flexDirection: 'column',
+    alignItems: 'center',
     width: '300px'
   },
   inputStyles: {
     margin: '10px 0px',
     border: 'none',
     padding: '8px 8px',
-    borderRadius: '5px'
+    borderRadius: '5px',
+    width: '80%'
   },
   imageStyle: {
     width: '300px',
