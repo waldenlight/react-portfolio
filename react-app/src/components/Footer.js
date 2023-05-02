@@ -6,7 +6,7 @@ const styles = {
         left: '0',
         bottom: '0',
         width: '100%',
-        backgroundColor: '#0B196A',
+        backgroundColor: '#8E44AD',
         color: 'white',
         display: 'flex',
         justifyContent: 'space-between',
