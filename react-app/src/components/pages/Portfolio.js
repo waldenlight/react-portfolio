@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   mainDivStyles: {
-    margin: "20px 150px",
+    margin: "2% 10%",
     padding: '20px 30px',
     backgroundColor: '#A569BD',
     color: 'white'
@@ -11,9 +11,9 @@ const styles = {
     fontWeight: 'bolder'
   },
   imageStyle: {
-    width: '300px',
+    width: '80%',
+    border: '0.3rem solid #A569BD',
     margin: '10px 0px',
-    border: '6px solid #A569BD'
   }
 };
 

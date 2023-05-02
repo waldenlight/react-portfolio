@@ -2,14 +2,14 @@ import React from 'react';
 
 const styles = {
   mainDivStyles: {
-    margin: "20px 150px",
+    margin: "2% 10%",
     padding: '20px 30px',
     backgroundColor: '#A569BD',
     color: 'white'
   },
   imageStyles: {
-    width: '300px',
-    border: '6px solid white'
+    width: '80%',
+    border: '0.3rem solid white'
   },
 };
 
