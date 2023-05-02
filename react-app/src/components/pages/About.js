@@ -9,7 +9,7 @@ const styles = {
   },
   imageStyles: {
     width: '300px',
-    border: '8px solid white'
+    border: '6px solid white'
   },
 };
 
