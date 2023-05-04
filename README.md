@@ -23,7 +23,12 @@ A portfolio made with React
 ## Installation
 N/A
 ## Usage
-View at the deployed link [here]()
+View at the deployed link [here](https://waldenlight.github.io/react-portfolio/)
+
+You should see this:
+
+![Screenshot 2023-05-03 214324](https://user-images.githubusercontent.com/76961678/236108205-a501738a-8fe6-4c13-a334-b3c9ed46ca92.png)
+
 ## Credits
 N/A
 ## License
