@@ -29,7 +29,7 @@ const projects = [
     description: "Find the perfect band name",
     url: "https://immense-earth-43761.herokuapp.com/",
     repo: "https://github.com/bbairdgen/uniquist",
-    image: "https://raw.githubusercontent.com/waldenlight/w-pwa-te/main/client/src/images/logo.png"
+    image: "https://github.com/waldenlight/react-portfolio/blob/main/react-app/images/uniquist.png?raw=true"
   },
   {
     id: 4,
