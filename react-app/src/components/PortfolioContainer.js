@@ -25,10 +25,10 @@ const projects = [
   },
   {
     id: 3,
-    name: "Progressive Web App",
-    description: "A PWA text editor",
-    url: "https://w-pwa-te.herokuapp.com/",
-    repo: "https://github.com/waldenlight/w-pwa-te",
+    name: "Uniquist",
+    description: "Find the perfect band name",
+    url: "https://immense-earth-43761.herokuapp.com/",
+    repo: "https://github.com/bbairdgen/uniquist",
     image: "https://raw.githubusercontent.com/waldenlight/w-pwa-te/main/client/src/images/logo.png"
   },
   {
