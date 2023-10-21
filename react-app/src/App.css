@@ -1,5 +1,5 @@
 :root {
-    --outer-space-crayola: rgb(52, 63, 62);
+    --outer-space-crayola: rgb(53, 65, 64);
     --quick-silver: rgb(171, 159, 157);
     --gainsboro: rgb(227, 219, 219);
     --bud-green: rgb(95, 173, 86);
@@ -16,6 +16,7 @@ html {
 
 body {
     background-image: url("../images/bg.jpg");
+    /* background-color: aqua; */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
