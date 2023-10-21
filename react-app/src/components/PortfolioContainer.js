@@ -57,6 +57,12 @@ const projects = [
   },
 ];
 
+const styles = {
+  bodyStyles: {
+    backgroundImage: 'url("../../images/graphicbg.jpg")',
+  }
+};
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
@@ -76,7 +82,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div style={styles.bodyStyles}>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
