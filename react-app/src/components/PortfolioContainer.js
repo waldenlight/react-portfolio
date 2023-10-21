@@ -59,7 +59,8 @@ const projects = [
 
 const styles = {
   bodyStyles: {
-    backgroundImage: 'url("../../images/graphicbg.jpg")',
+    backgroundImage: 'url("https://github.com/waldenlight/react-portfolio/blob/main/react-app/images/graphicbg.jpg?raw=true")',
+    backgroundSize: 'cover'
   }
 };
 
