@@ -1,5 +1,24 @@
 :root {
+    /* Primary Color */
+    --darkest-primary: #6c0f16;
+    --dark-primary: #90141e;
+    --darker-primary: #b41825;
+    --primary: #d71d2d;
+    --lighter-primary: #e43a48;
+    --light-primary: #e95d69;
+    --lightest-primary: #ee818a;
+
+    /* Greys */
+    --darkest-grey: #141414;
+    --dark-grey: #292929;
+    --darker-grey: #333333;
+    --grey: #858585;
+    --lighter-grey: #f5f5f5;
+    --light-grey: #d6d6d6;
+    --lightest-grey: #f5f5f5;
+
     --outer-space-crayola: rgb(53, 65, 64);
+    --outer-space: rgb(31, 34, 33);
     --quick-silver: rgb(171, 159, 157);
     --gainsboro: rgb(227, 219, 219);
     --bud-green: rgb(95, 173, 86);
@@ -20,6 +39,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
 }
 
 header {
@@ -62,7 +82,7 @@ nav a:hover::before {
 main {
     width: 800px;
     margin: 20px;
-    background-color: var(--outer-space-crayola);
+    background-color: var(--outer-space);
     color: white;
     padding: 10px;
 }

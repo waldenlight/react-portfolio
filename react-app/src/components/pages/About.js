@@ -3,22 +3,24 @@ import React from 'react';
 const styles = {
   mainDivStyles: {
     margin: "2% 10%",
+    marginBottom: '200px',
     padding: '20px 30px',
-    backgroundColor: '#A569BD',
-    color: 'white',
-    textAlign: 'center'
+    color: '#141414',
+    textAlign: 'center',
+    borderRadius: '10px'
   },
   titleStyles: {
-    color: 'white',
+    color: '#292929',
     fontWeight: 'bold',
     textAlign: 'center'
   },
   bioStyles: {
     margin: "2% 10%",
     padding: '20px 30px',
-    backgroundColor: '#343f3e',
+    backgroundColor: '#292929',
     borderRadius: '10px',
     textAlign: 'left',
+    color: '#f5f5f5',
   },
   imageStyles: {
     width: '400px',
@@ -36,7 +38,7 @@ export default function About() {
     <div style={styles.mainDivStyles}>
       <h1 style={styles.titleStyles}>About Me</h1>
       <div style={styles.bioStyles}>
-        <p >Full-stack web developer seeking an entry-level role as a junior software engineer
+        <p >I am a full-stack web developer seeking an entry-level role as a junior software engineer
           or
           web developer. Earned a certificate in full stack web development from the University of
           Utah
