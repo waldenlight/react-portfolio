@@ -59,8 +59,11 @@ const projects = [
 
 const styles = {
   bodyStyles: {
-    backgroundImage: 'url("https://github.com/waldenlight/react-portfolio/blob/main/react-app/images/graphicbg.jpg?raw=true")',
-    backgroundSize: 'cover'
+    // backgroundImage: 'url("https://github.com/waldenlight/react-portfolio/blob/main/react-app/images/graphicbg.jpg?raw=true")',
+    backgroundSize: 'cover',
+    margin: '0',
+    width: '100%',
+    height: '100%',
   }
 };
 
@@ -81,6 +84,8 @@ export default function PortfolioContainer() {
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
+
+  document.body.style = 'background: #f5f5f5;';
 
   return (
     <div style={styles.bodyStyles}>

@@ -4,15 +4,15 @@ const styles = {
   mainDivStyles: {
     margin: "2% 10%",
     padding: '20px 30px',
-    backgroundColor: '#A569BD',
-    color: 'white'
+    // backgroundColor: '#A569BD',
+    color: '#f5f5f5'
   },
   projectStyles: {
-    fontWeight: 'bolder'
+    fontWeight: 'bolder',
   },
   imageStyle: {
     width: '80%',
-    border: '0.3rem solid #A569BD',
+    // border: '0.3rem solid #A569BD',
     margin: '10px 0px',
   }
 };

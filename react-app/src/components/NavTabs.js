@@ -2,19 +2,21 @@ import React from 'react';
 
 const styles = {
   navStyles: {
-    backgroundColor: '#8E44AD',
+    backgroundColor: '#292929',
     padding: '10px 0px',
-    color: 'white',
+    color: '#f5f5f5',
   },
   headerStyles: {
     margin: '0px 20px'
   },
   navLinkStyles: {
-    color: 'white'
+    color: '#f5f5f5',
+    textTransform: 'uppercase'
   },
   activeNavLinkStyles: {
-    color: '#8E44AD',
-    fontWeight: 'bolder'
+    color: '#d71d2d',
+    fontWeight: 'bolder',
+    textTransform: 'uppercase'
   }
 }
 

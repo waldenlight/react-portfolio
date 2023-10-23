@@ -6,7 +6,7 @@ const styles = {
         left: '0',
         bottom: '0',
         width: '100%',
-        backgroundColor: '#8E44AD',
+        backgroundColor: '#292929',
         color: 'white',
         display: 'flex',
         justifyContent: 'space-between',
@@ -17,6 +17,9 @@ const styles = {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center'
+    },
+    titleStyles: {
+        margin: '0px 10px'
     },
     liStyles: {
         margin: '0px 10px',
@@ -33,8 +36,8 @@ const styles = {
 function Footer({ currentPage }) {
     return (
         <div style={styles.footerStyle}>
-            <h4>{currentPage} Page</h4>
-            <h5>Walden Light</h5>
+            <h4 style={styles.titleStyles}>{currentPage} Page</h4>
+            {/* <h5 style={styles.titleStyles}>Walden Light</h5> */}
             <div style={styles.ulStyles}>
                 <p style={styles.liStyles}><a style={styles.anchorStyles} href='https://github.com/waldenlight'>GitHub</a></p>
                 <p style={styles.liStyles}><a style={styles.anchorStyles} href='https://www.linkedin.com/in/walden-light-102a3321a/'>LinkedIn</a></p>
