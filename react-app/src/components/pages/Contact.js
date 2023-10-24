@@ -5,8 +5,8 @@ const styles = {
   mainDivStyles: {
     margin: "2% 8%",
     padding: '20px 30px',
-    backgroundColor: '#A569BD',
-    color: 'white',
+    // backgroundColor: '#A569BD',
+    color: '#292929',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center'
@@ -22,7 +22,8 @@ const styles = {
     border: 'none',
     padding: '8px 8px',
     borderRadius: '5px',
-    width: '80%'
+    width: '80%',
+    border: '1.5px solid #292929',
   },
   imageStyle: {
     width: '300px',
