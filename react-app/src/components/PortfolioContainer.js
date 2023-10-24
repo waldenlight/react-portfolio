@@ -13,7 +13,7 @@ const projects = [
     description: "A responsive app using APIs.",
     url: "https://waldenlight.github.io/omen-weather-app/",
     repo: "https://github.com/waldenlight/omen-weather-app",
-    image: "https://user-images.githubusercontent.com/76961678/227419249-7f86174e-3991-434f-b321-b933b0a156f9.png"
+    image: "https://raw.githubusercontent.com/waldenlight/omen-weather-app/main/assets/images/london.jpg"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projects = [
     description: "A social media MVP made with MySQL.",
     url: "https://weddit.herokuapp.com/",
     repo: "https://github.com/waldenlight/weddit",
-    image: "https://raw.githubusercontent.com/waldenlight/omen-weather-app/main/assets/images/london.jpg"
+    image: "https://user-images.githubusercontent.com/76961678/227419249-7f86174e-3991-434f-b321-b933b0a156f9.png"
   },
   {
     id: 3,
